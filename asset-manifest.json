@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/foodproject/static/css/main.f97c7a7f.css",
+    "main.js": "/foodproject/static/js/main.eda349b9.js",
+    "static/media/sushi.jpg": "/foodproject/static/media/sushi.a2b4b921ab28b2b3f6c7.jpg",
+    "index.html": "/foodproject/index.html",
+    "main.f97c7a7f.css.map": "/foodproject/static/css/main.f97c7a7f.css.map",
+    "main.eda349b9.js.map": "/foodproject/static/js/main.eda349b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f97c7a7f.css",
+    "static/js/main.eda349b9.js"
+  ]
+}
