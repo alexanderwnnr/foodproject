@@ -1,23 +1,40 @@
 .meal {
-    display: flex;
+    display:flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #ccc;
+    width: 30%;
+    margin: 0rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
   }
-  
+  .meal img {
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
   .meal h3 {
     margin: 0 0 0.25rem 0;
   }
-  
+
   .description {
     font-style: italic;
   }
   
   .price {
-    margin-top: 0.25rem;
+    margin-top: 0.5rem;
     font-weight: bold;
     color: #6b068a;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
-  
+@media (max-width: 767px) {
+.meal {
+        width: 100%; /* Карточки занимают 100% ширины на мобильных устройствах */
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .meal {
+      width: 48%; /* На планшетах, карточки занимают 48% ширины, чтобы поместиться в две колонки */
+  }
+}

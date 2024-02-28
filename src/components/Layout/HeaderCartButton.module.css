@@ -4,7 +4,7 @@
     border: none;
     background-color: #47035d;
     color: white;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,8 +18,8 @@
   }
   
   .icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
     margin-right: 1rem;
   }
   

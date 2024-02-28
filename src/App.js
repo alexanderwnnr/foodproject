@@ -3,6 +3,7 @@ import Header from './components/Layout/Header'
 import Meals from './components/Meals/Meals'
 import Cart from './components/Cart/Cart';
 import CartContextProvider from './store/CartContextProvider'
+import Footer from './components/Layout/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <main>
         <Meals />
       </main>
+      <Footer />
     </CartContextProvider>
   );
 }

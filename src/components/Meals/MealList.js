@@ -1,4 +1,3 @@
-import styles from './MealList.module.css'
 import Card from '../UI/Card'
 import MealItem from './MealItem/MealItem';
 
@@ -29,6 +28,34 @@ const DUMMY_MEALS = [
         "Рис, лосось, огурец, чука, нори, стружка тунца, соус ореховый",
       price: 7.99,
     },
+    {
+      id: "m5",
+      name: 'Салат "Поке с лососем"',
+      description:
+        "Рис, лосось, огурец, чука, нори, стружка тунца, соус ореховый",
+      price: 7.99,
+    },
+    {
+      id: "m6",
+      name: 'Салат "Поке с лососем"',
+      description:
+        "Рис, лосось, огурец, чука, нори, стружка тунца, соус ореховый",
+      price: 7.99,
+    },
+    {
+      id: "m7",
+      name: 'Салат "Поке с лососем"',
+      description:
+        "Рис, лосось, огурец, чука, нори, стружка тунца, соус ореховый",
+      price: 7.99,
+    },
+    {
+      id: "m8",
+      name: 'Салат "Поке с лососем"',
+      description:
+        "Рис, лосось, огурец, чука, нори, стружка тунца, соус ореховый",
+      price: 7.99,
+    },
 ];
 
 const MealList = (props) => {
@@ -40,11 +67,13 @@ const MealList = (props) => {
         price={meal.price}/>
     ))
 
-    return <section className={styles.meals}>
+    return <div className="bg-white">
+      <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <Card>
-            <ul>{mealList}</ul>
+            {mealList}
         </Card>
-    </section>
+      </div>
+    </div>
 }
 
 export default MealList
